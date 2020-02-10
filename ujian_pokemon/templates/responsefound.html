@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{data1}} Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine|Sofia' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: blanchedalmond
+    }</style>
+<body>
+    <center>
+        <h1>Nama Pokemon Pilihan Anda: {{pokename}}</h1>
+        <br>
+        <h3>Gambar {{pokename}}: </h3><img src="{{picture1}}" width="50" height="50">
+        <br>
+        <h6>Gen {{genpoke}}</h6><h6>Type: {{typepoke}}</h6><h6>Legendary?: {{legpoke}}</h6>
+        <br>
+        <h4>Daftar Rekomendasi:</h4>
+        <br>
+        <h4>1. {{newlist[0]}}</h4>
+        <!-- <img src="{{imgsrc[0]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[0]}}</h6><h6>Type: {{typeoth[0]}}</h6><h6>Legendary?: {{legoth[0]}}</h6>
+        <br>
+        <h4>2. {{newlist[1]}}</h4>
+        <!-- <img src="{{imgsrc[1]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[1]}}</h6><h6>Type: {{typeoth[1]}}</h6><h6>Legendary?: {{legoth[1]}}</h6>
+        <br>
+        <h4>3. {{newlist[2]}}</h4>
+        <!-- <img src="{{imgsrc[2]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[2]}}</h6><h6>Type: {{typeoth[2]}}</h6><h6>Legendary?: {{legoth[2]}}</h6>
+        <br>
+        <h4>4. {{newlist[3]}}</h4>
+        <!-- <img src="{{imgsrc[3]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[3]}}</h6><h6>Type: {{typeoth[3]}}</h6><h6>Legendary?: {{legoth[3]}}</h6>
+        <br>
+        <h4>5. {{newlist[4]}}</h4>
+        <!-- <img src="{{imgsrc[4]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[4]}}</h6><h6>Type: {{typeoth[4]}}</h6><h6>Legendary?: {{legoth[4]}}</h6>
+        <br>
+        <h4>6. {{newlist[5]}}</h4>
+        <!-- <img src="{{imgsrc[5]}}" width="50" height="50"> -->
+        <h6>Gen {{genoth[5]}}</h6><h6>Type: {{typeoth[5]}}</h6><h6>Legendary?: {{legoth[5]}}</h6>
+        <br>
+        <a href="http://127.0.0.1:5000/">
+            <button type="button" class="btn btn-info btn-lg waves-effect">Kembali</button>
+        </a>
+    </center>
+</body>
+</html>
